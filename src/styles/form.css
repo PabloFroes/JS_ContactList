@@ -1,0 +1,131 @@
+.default-background.register{
+    width: 100%;
+    background-color: initial;
+}
+
+.register-feed{
+    padding: 15px;
+    background-color: #1A73E8;
+    width: 40%;
+    min-width: 180px;
+    max-width: 300px;
+    margin: auto;
+    color: white;
+    font-weight: bold;
+    border-radius: 30px;
+    border-color: #eeeeee;
+    height: 50vh;
+    font-family: 'JetBrainsMono NF',Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 0 0 6px 1px #222831;
+    border-style: solid;
+    border-width: 10px;
+}
+
+.register-feed.contact{
+    padding: 15px;
+    background-color: #1A73E8;
+    width: 40%;
+    min-width: 180px;
+    max-width: 300px;
+    margin: auto;
+    color: white;
+    font-weight: bold;
+    border-radius: 30px;
+    border-color: #eeeeee;
+    height: 70vh;
+    font-family: 'JetBrainsMono NF',Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 0 0 6px 1px #222831;
+    border-style: solid;
+    border-width: 10px;
+}
+
+.register-form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: left;
+    align-content: center;
+    font-size: 1.2rem;
+    text-shadow: 1px 1px black;
+}
+
+.register-feed img{
+    width: 120px;
+}
+
+.register-form label{
+    margin-top: 20px;
+}
+.register-form input{
+    box-shadow: 0 0 2px 1px #0e226c;
+    font-size: 90%;
+    width: 180px;
+}
+
+.register-form .form-button{
+    margin-top: 40px;
+    padding: 10px;
+}
+
+.register-form button{
+    font-family: 'JetBrainsMonoMedium NF',Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 2px;
+    background-color: white;
+    border-color: #1A73E8;
+    color: #1A73E8;;
+    border-radius: 10px;
+    padding: 10px;
+}
+.register-form button:hover{
+    background-color: rgb(240, 240, 240);
+    border-color: #1A73E8;
+    color: #006eff;;
+    cursor: pointer;
+}
+
+.error{
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-shadow: 0px 0px 7px white;
+    color: rgb(226, 0, 0);
+    text-align: center;
+    padding-top: 30px;
+}
+
+.deleteButton{
+    font-family: 'JetBrainsMonoMedium NF',Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 2px;
+    background-color: white;
+    border-color: #1A73E8;
+    color: rgb(194, 0, 0);;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.deleteButton:hover{
+    background-color: rgb(240, 240, 240);
+    border-color: #1A73E8;
+    color: red;;
+    cursor: pointer;
+}
+
+@media screen and (max-height: 900px) {
+    .register-form .form-button{
+        margin-top: 10px;
+        padding: 0;
+    }
+    .register-form button{
+        border-radius: 10px;
+        padding: 5px;
+    }
+    .register-form label{
+        margin-top: 15px;
+    }
+    .error{
+        padding-top: 5px;
+    }
+  }

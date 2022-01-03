@@ -1,0 +1,8 @@
+.default-background{
+    margin: auto;
+    width: 100%;
+    height: 85vh;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}

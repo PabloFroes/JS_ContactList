@@ -1,0 +1,73 @@
+.header-background{
+    margin: auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 0 0 20px 20px;
+    padding: 0 20px 0 20px;
+    margin-bottom: 10px;
+}
+
+.header-background #logo{
+    min-width: 120px;
+    max-width: 320px;
+    justify-content: left;
+    width: auto;
+}
+.header-background #logo img{
+    width: 35vmin;
+    min-width: 130px;
+
+}
+
+.header-background #header-buttons{
+    width: auto;
+    justify-content: right;
+}
+
+.header-background #header-buttons button{
+    margin: 1vmin;
+    border-radius: 4px;
+    padding: 5px 10px 5px 10px;
+    font-weight: bold;
+}
+
+#register-button{
+    background-color: #eeeeee;
+    border-color: #1A73E8;
+    color: #1A73E8;
+    height: 35px;
+}
+
+#register-button:hover{
+    cursor: pointer;
+    box-shadow: 0 0 1px 1px #1A73E8;
+}
+
+#register-button:active{
+
+    box-shadow: inset 0 0 3px 1px #0e226c;
+}
+
+#login-button{
+    background-color: #1A73E8;
+    color: #FFFFFF;
+    width:80px;
+    height: 35px;
+    border-style: none;
+}
+
+#login-button:hover{
+    box-shadow: 0 0 1px 1px #1A73E8;
+    border-style: solid;
+    border-color: white;
+    cursor: pointer;
+    border-width: 1px;
+}
+
+#login-button:active{
+    border-style: solid;
+    box-shadow: inset 0 0 4px 2px #0e226c;
+}
