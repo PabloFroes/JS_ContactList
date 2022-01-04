@@ -1,6 +1,5 @@
-import React, { Fragment, useEffect } from "react";
+import React, { Fragment, useEffect, useState } from "react";
 import { Navigate } from "react-router-dom";
-import { useState } from "react/cjs/react.development";
 import UserService from "../../../services/users";
 import "../../../styles/form.css"
 import EditPassword from "./edit_password";
