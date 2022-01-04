@@ -1,6 +1,5 @@
-import React, { Fragment, useEffect } from "react";
+import React, { Fragment, useEffect, useState } from "react";
 import { Navigate } from "react-router-dom";
-import { useState } from "react/cjs/react.development";
 import ContactService from "../../../../services/contacts";
 import "../../../../styles/form.css"
 import img from "../../../../assets/images/Google_Contacts_logo.png"
