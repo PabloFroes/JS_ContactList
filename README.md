@@ -26,4 +26,4 @@ Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## You will need contact list api running to use this app
-### [Contact_List_API](https://github.com/PabloFroes/JS_ContactList_API)
+### [JS_Contact_List_API](https://github.com/PabloFroes/JS_ContactList_API)
